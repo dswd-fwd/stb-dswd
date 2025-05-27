@@ -82,8 +82,8 @@ const day = today.getDate()
 
         <!-- Date -->
         <a href="https://oras.pagasa.dost.gov.ph/index.shtml" target="_blank" rel="noopener" class="border border-gray-400 bg-white px-2 py-1 rounded text-center leading-none hover:underline">
-            <div class="text-[13px] font-bold text-gray-600">{{ month }} {{ day }}</div>
-            <!-- <div class="text-sm font-bold">{{ day today }}</div> -->
+            <div class="text-[12px] font-bold text-gray-600">{{ month }}</div>
+            <div class="text-sm font-bold">{{ day }}</div>
         </a>
 
         <!-- Time -->
@@ -91,6 +91,7 @@ const day = today.getDate()
             <div class="text-[12px] text-gray-600">Philippine Standard Time:</div>
             <div class="text-[15px] text-center font-bold">{{ currentTime }}</div>
         </a>
+
       </div>
 
       <!-- Optional slot content -->
